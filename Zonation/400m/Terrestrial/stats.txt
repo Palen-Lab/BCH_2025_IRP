@@ -1,0 +1,22 @@
+Arguments given: --gui --mode=CAZ2 E:/E2O/zonation/400m/SettingsFiles/settings_T.z5 E:/E2O/zonation/400m/Terrestrial_Final
+Settings filename: E:/E2O/zonation/400m/SettingsFiles/settings_T.z5
+Feature list filename: E:\E2O\zonation\400m\SettingsFiles\feature_list_T.txt
+Map dimensions (width * height): 3993*3440
+Number of grid cells in map (width * height): 13735920
+Number of grid cells in map with data: 6021143
+Feature layer count: 147
+Positive weight feature count: 147
+Negative weight feature count: 0
+Zero weight feature count: 0
+Total number of pixels with data across features: 877574786
+Mean feature extent across study area: 4.70%
+Memory usage of feature data: 924.98MB
+Mean quantization error: 0.00264786%
+Time used to read and preprocess layer data: 2m25s
+Time used in prioritization: 7m5s
+Number of iterations: 93
+Final convergence level: 0.00991369%
+Area under curve: 0.929118
+Total time used: 9m32s
+Number of errors: 0
+Number of warnings: 0
