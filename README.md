@@ -1,2 +1,2 @@
 # BC Hydro 2025 IRP Processing
-scripts and necessary data for bc hydro project processing
+hi this is a bunch of data and scripts for the work i've done on the BC Hydro project
