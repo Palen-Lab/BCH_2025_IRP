@@ -7,9 +7,9 @@ import pandas as pd
 import os
 
 # Set directories and file paths
-source_workspace = r"E:\\Github\\Plateau Wind Bootstrapping"
-output_dir = r"E:\\Github\\Plateau Wind Bootstrapping\\fw_random_pts_output"
-input_raster = r"E:\\Github\\Zonation\\400m\\Freshwater\\weighted.tif"
+source_workspace = r"E:\\Github\\BC Hydro Project\\Plateau Wind Bootstrapping"
+output_dir = r"E:\\Github\\BC Hydro Project\\Plateau Wind Bootstrapping\\fw_random_pts_output"
+input_raster = r"E:\\Github\\BC Hydro Project\\Zonation\\400m\\Freshwater\\weighted.tif"
 
 # Plateau names and number of turbines
 num_turbines = [26, 44, 13, 50, 20, 20, 13, 18, 35, 31, 29, 41, 101, 126, 73, 45, 45, 95, 113, 45, 57, 69, 17, 24, 30, 69, 47, 52, 40, 30, 49, 14, 30, 20, 29, 26, 24, 19, 23, 28, 37, 47, 17, 61, 10, 30, 29, 10, 21, 35, 12, 51, 23, 33, 8, 7, 7, 39, 67, 61]
@@ -33,7 +33,7 @@ for a, plateau_name in enumerate(plateau_names):
     print(f"Processing plateau: {plateau_name}")
 
     # Path to the plateau's shapefile
-    shapefile_path = os.path.join(r"E:\\Github\\BC Hydro Projects\\Shapefiles\\Project\\Wind\\Plateau Polygons", plateau_name + '.shp')
+    shapefile_path = os.path.join(r"E:\\Github\\BC Hydro Project\\BC Hydro Projects\\Shapefiles\\Project\\Wind\\Plateau Polygons\\", plateau_name + '.shp')
     plateau_gdf = gpd.read_file(shapefile_path)
 
     # Skip plateau if the shapefile is empty

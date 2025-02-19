@@ -1,8 +1,8 @@
 library(terra)
 
-setwd("E:/Github/BCH_2025_IRP")
+setwd("E:/Github/BC Hydro Project/")
 
-# matrix to weight zonation rasters
+# matrix to assign weights to zonation rasters
 reclass_matrix <- matrix(c(
   0, 0.1, 1,   
   0.11, 0.2, 2,  
@@ -18,10 +18,13 @@ reclass_matrix <- matrix(c(
 
 # terrestrial zonation
 zt <- rast("Zonation/400m/Terrestrial/rankmap.tif")
-zt_weighted <- classify(zt, reclass_matrix)
+zt_weights <- classify(zt, reclass_matrix) # assigning weights to all raster values
+zt_weighted <- zt * zt_weights # multiplying the original zonation raster by the weight values
 writeRaster(zt_weighted, "Zonation/400m/Terrestrial/weighted.tif", overwrite = TRUE)
 
+
 # freshwater zonation
-fwt <- rast("Zonation/400m/Freshwater/rankmap.tif")
-fwt_weighted <- classify(fwt, reclass_matrix)
-writeRaster(fwt_weighted, "Zonation/400m/Freshwater/weighted.tif", overwrite = TRUE)
+zfw <- rast("Zonation/400m/Freshwater/rankmap.tif")
+zfw_weights <- classify(fwt, reclass_matrix) 
+zfw_weighted <- zfw * zfw_weights
+writeRaster(fwz_weighted, "Zonation/400m/Freshwater/weighted.tif", overwrite = TRUE)

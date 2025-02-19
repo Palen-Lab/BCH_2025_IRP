@@ -1,7 +1,7 @@
 library(terra)
 library(tools)
 
-setwd("E:/Github/BCH_2025_IRP/")
+setwd("E:/Github/BC Hydro Project/")
 
 # function to extract zonation pixels of each project
 extract_zonation <- function(input_folder, output_folder, z_raster) {

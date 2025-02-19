@@ -1,7 +1,7 @@
 library(terra)
 library(dplyr)
 
-setwd("E:/Github/BCH_2025_IRP/")
+setwd("E:/Github/BC Hydro Project/")
 
 #### TEST ####
 
