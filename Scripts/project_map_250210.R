@@ -2,7 +2,7 @@ library(ggplot2)
 library(sf)
 library(terra)
 
-setwd("E:/BCH_2025_IRP/BCH_2025_IRP/") # set this to wherever you clone the github repository to
+setwd("E:/Github/BCH_2025_IRP/") # set this to wherever you clone the github repository to
 
 # read in all project points
 projects <- read_sf("BC Hydro Projects/Shapefiles/Point Locations/all_projects_250210.shp")

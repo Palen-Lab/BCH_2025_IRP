@@ -1,0 +1,33 @@
+library(ggplot2)
+library(readxl)
+library(tidyr)
+library(dplyr)
+
+setwd("E:/Github/BCH_2025_IRP/")
+
+# Specify the file path to your Excel file
+file_path <- "BC Hydro Projects/BCH_Project_Summary_250218.xlsx"
+
+# Read the first sheet of the Excel file into a data frame
+df <- read_excel(file_path)
+
+df <- df %>%
+  arrange(`Scaled Summed Score`) %>%
+  mutate(`BC Hydro Names` = factor(`BC Hydro Names`, levels = rev(`BC Hydro Names`)))
+
+write.csv(df, "BC Hydro Projects/BCH_Project_Summary_250218.csv")
+
+names(df)
+
+ggplot(df, aes(y = `BC Hydro Names`)) +
+  geom_bar(aes(x = `Terrestrial Proportion of Scaled Score` + `Freshwater Proportion of Scaled Score`, fill = "Terrestrial"), stat = "identity") +
+  geom_bar(aes(x = `Freshwater Proportion of Scaled Score`, fill = "Freshwater"), position = "stack", stat = "identity") +
+  scale_fill_manual(
+    values = c("Terrestrial" = "green", "Freshwater" = "blue")
+  ) +
+  theme_bw() +
+  labs(x = "Scaled Z-Score") +
+  theme(axis.text.y = element_text(size = 6)) +
+  scale_x_continuous(limits = c(0, 1), expand = c(0, 0))
+
+ggsave("Graphics/Bar Graphs/project_z-scores_ranked_250218.jpg", width = 30, height = 75, units = "cm", dpi = 300)
