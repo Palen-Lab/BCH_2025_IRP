@@ -6,7 +6,7 @@ library(dplyr)
 setwd("E:/Github/BC Hydro Project/")
 
 # Specify the file path to your Excel file
-file_path <- "BC Hydro Projects/BCH_Project_Summary_241128.xlsx"
+file_path <- "BC Hydro Projects/BCH_Project_Summary_250221_100m.xlsx"
 
 # Read the first sheet of the Excel file into a data frame
 df <- read_excel(file_path)
@@ -15,7 +15,7 @@ df <- df %>%
   arrange(`Scaled Summed Score`) %>%
   mutate(`BC Hydro Names` = factor(`BC Hydro Names`, levels = rev(`BC Hydro Names`)))
 
-write.csv(df, "BC Hydro Projects/BCH_Project_Summary_241128.csv")
+write.csv(df, "BC Hydro Projects/BCH_Project_Summary_250221_100m.csv")
 
 names(df)
 
@@ -30,4 +30,4 @@ ggplot(df, aes(y = `BC Hydro Names`)) +
   theme(axis.text.y = element_text(size = 6)) +
   scale_x_continuous(limits = c(0, 1), expand = c(0, 0))
 
-ggsave("Graphics/Bar Graphs/project_z-scores_ranked_241128.jpg", width = 30, height = 75, units = "cm", dpi = 300)
+ggsave("Graphics/Bar Graphs/project_z-scores_ranked_250221_100m.jpg", width = 30, height = 75, units = "cm", dpi = 300)
