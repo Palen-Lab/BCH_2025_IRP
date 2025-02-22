@@ -62,6 +62,7 @@
 1.0 ../Data/Terrestrial/ch_kellogs_rush.tif
 1.0 ../Data/Terrestrial/ch_lemmons_holly_fern.tif
 1.0 ../Data/Terrestrial/ch_lewis_woodpecker.tif
+1.0 ../Data/Terrestrial/ch_lil_brown_bat.tif
 1.0 ../Data/Terrestrial/ch_lindleys_silverpuff.tif
 1.0 ../Data/Terrestrial/ch_lowland_rotala.tif
 1.0 ../Data/Terrestrial/ch_macouns_meadowfoam.tif
@@ -72,10 +73,10 @@
 1.0 ../Data/Terrestrial/ch_mountain_holly_fern.tif
 1.0 ../Data/Terrestrial/ch_muhlenbergs_centaury.tif
 1.0 ../Data/Terrestrial/ch_mx_mosquito_fern.tif
-1.0 ../Data/Terrestrial/ch_myotis.tif
 1.0 ../Data/Terrestrial/ch_n_leopard_frog.tif
 1.0 ../Data/Terrestrial/ch_n_spotted_owl.tif
 1.0 ../Data/Terrestrial/ch_northern_goshawk.tif
+1.0 ../Data/Terrestrial/ch_northern_myotis.tif
 1.0 ../Data/Terrestrial/ch_northern_sawwhet.tif
 1.0 ../Data/Terrestrial/ch_nugget_moss.tif
 1.0 ../Data/Terrestrial/ch_okanagan_efferia.tif

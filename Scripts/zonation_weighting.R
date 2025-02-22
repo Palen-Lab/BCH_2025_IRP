@@ -25,6 +25,6 @@ writeRaster(zt_weighted, "Zonation/400m/Terrestrial/weighted.tif", overwrite = T
 
 # freshwater zonation
 zfw <- rast("Zonation/400m/Freshwater/rankmap.tif")
-zfw_weights <- classify(fwt, reclass_matrix) 
+zfw_weights <- classify(zfw, reclass_matrix) 
 zfw_weighted <- zfw * zfw_weights
-writeRaster(fwz_weighted, "Zonation/400m/Freshwater/weighted.tif", overwrite = TRUE)
+writeRaster(zfw_weighted, "Zonation/400m/Freshwater/weighted.tif", overwrite = TRUE)
