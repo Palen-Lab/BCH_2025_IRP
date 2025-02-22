@@ -1,0 +1,22 @@
+Arguments given: --gui --mode=CAZ2 E:/Github/BC Hydro Project/Zonation/100m/SettingsFiles/settings_FW.z5 E:/Github/BC Hydro Project/Zonation/100m/Freshwater
+Settings filename: E:/Github/BC Hydro Project/Zonation/100m/SettingsFiles/settings_FW.z5
+Feature list filename: E:\Github\BC Hydro Project\Zonation\100m\SettingsFiles\feature_list_FW.txt
+Map dimensions (width * height): 15967*13679
+Number of grid cells in map (width * height): 218412593
+Number of grid cells in map with data: 95652032
+Feature layer count: 24
+Positive weight feature count: 24
+Negative weight feature count: 0
+Zero weight feature count: 0
+Total number of pixels with data across features: 2280684350
+Mean feature extent across study area: 15.86%
+Memory usage of feature data: 3.06GB
+Mean quantization error: 0.000879546%
+Time used to read and preprocess layer data: 3m4s
+Time used in prioritization: 17m22s
+Number of iterations: 33
+Final convergence level: 0.00981727%
+Area under curve: 0.907519
+Total time used: 20m39s
+Number of errors: 0
+Number of warnings: 0

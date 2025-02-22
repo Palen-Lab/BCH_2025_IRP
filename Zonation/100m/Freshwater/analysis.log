@@ -1,0 +1,236 @@
+[2025-02-20 14:24:07.854] [info] Zonation 5 v2.1
+[2025-02-20 14:24:07.914] [info] Arguments given: --gui --mode=CAZ2 E:/Github/BC Hydro Project/Zonation/100m/SettingsFiles/settings_FW.z5 E:/Github/BC Hydro Project/Zonation/100m/Freshwater
+[2025-02-20 14:24:07.960] [info] Using 8-bit quantization
+[2025-02-20 14:24:07.978] [info] Using 4 threads for computation
+[2025-02-20 14:24:07.984] [info] Loading project "E:/Github/BC Hydro Project/Zonation/100m/SettingsFiles/settings_FW.z5"
+[2025-02-20 14:24:07.991] [info] Using setting: feature list file = feature_list_FW.txt
+[2025-02-20 14:24:07.995] [info] Using default setting: curves output interval = 9.99999975e-05
+[2025-02-20 14:24:07.996] [info] Using default setting: max iterations = 500
+[2025-02-20 14:24:07.999] [info] Using default setting: mean ranking error threshold = 0.00999999978
+[2025-02-20 14:24:08.000] [info] Using default setting: smoothing factor = 0
+[2025-02-20 14:24:08.004] [info] Using default setting: stop on plateau = 0
+[2025-02-20 14:24:08.006] [info] Using default setting: zero mode = all
+[2025-02-20 14:24:08.008] [info] Using default setting: stop after preprocessing = 0
+[2025-02-20 14:24:08.009] [info] Using default setting: quantization error warning threshold = 20
+[2025-02-20 14:24:08.010] [info] Loading feature layer information from "E:\Github\BC Hydro Project\Zonation\100m\SettingsFiles\feature_list_FW.txt"
+[2025-02-20 14:24:08.029] [info] Validating project
+[2025-02-20 14:24:08.152] [info] Reading layer data
+[2025-02-20 14:24:08.218] [info] Gathering data statistics
+[2025-02-20 14:24:13.245] [info] 7.8%
+[2025-02-20 14:24:18.249] [info] 15.9%
+[2025-02-20 14:24:23.270] [info] 24.1%
+[2025-02-20 14:24:28.287] [info] 32.2%
+[2025-02-20 14:24:33.308] [info] 40.2%
+[2025-02-20 14:24:38.320] [info] 48.0%
+[2025-02-20 14:24:43.341] [info] 55.7%
+[2025-02-20 14:24:48.347] [info] 63.4%
+[2025-02-20 14:24:53.368] [info] 71.0%
+[2025-02-20 14:24:58.379] [info] 78.1%
+[2025-02-20 14:25:03.393] [info] 84.8%
+[2025-02-20 14:25:08.405] [info] 91.5%
+[2025-02-20 14:25:13.429] [info] 98.9%
+[2025-02-20 14:25:14.135] [info] Map dimensions (width * height): 15967*13679
+[2025-02-20 14:25:14.140] [info] Number of grid cells in map (width * height): 218412593
+[2025-02-20 14:25:14.149] [info] Number of grid cells in map with data: 95652032
+[2025-02-20 14:25:14.157] [info] Feature layer count: 24
+[2025-02-20 14:25:14.165] [info] Positive weight feature count: 24
+[2025-02-20 14:25:14.171] [info] Negative weight feature count: 0
+[2025-02-20 14:25:14.187] [info] Zero weight feature count: 0
+[2025-02-20 14:25:14.200] [info] Total number of pixels with data across features: 2280684350
+[2025-02-20 14:25:14.208] [info] Reading feature layers
+[2025-02-20 14:25:19.225] [info] 5.3%
+[2025-02-20 14:25:24.236] [info] 9.4%
+[2025-02-20 14:25:29.261] [info] 13.8%
+[2025-02-20 14:25:34.280] [info] 18.1%
+[2025-02-20 14:25:39.304] [info] 22.6%
+[2025-02-20 14:25:44.320] [info] 27.0%
+[2025-02-20 14:25:49.337] [info] 31.5%
+[2025-02-20 14:25:54.345] [info] 36.1%
+[2025-02-20 14:25:59.368] [info] 40.3%
+[2025-02-20 14:26:04.378] [info] 44.4%
+[2025-02-20 14:26:09.398] [info] 48.9%
+[2025-02-20 14:26:14.418] [info] 53.3%
+[2025-02-20 14:26:19.435] [info] 57.8%
+[2025-02-20 14:26:24.453] [info] 62.2%
+[2025-02-20 14:26:29.468] [info] 66.6%
+[2025-02-20 14:26:34.488] [info] 70.9%
+[2025-02-20 14:26:39.507] [info] 75.2%
+[2025-02-20 14:26:44.517] [info] 79.4%
+[2025-02-20 14:26:49.531] [info] 83.4%
+[2025-02-20 14:26:54.559] [info] 87.1%
+[2025-02-20 14:26:59.566] [info] 91.5%
+[2025-02-20 14:27:04.589] [info] 96.4%
+[2025-02-20 14:27:09.607] [info] 98.3%
+[2025-02-20 14:27:12.592] [info] Mean feature extent across study area: 15.86%
+[2025-02-20 14:27:12.598] [info] Memory usage of feature data: 3.06GB
+[2025-02-20 14:27:12.606] [info] Mean quantization error: 0.000879546%
+[2025-02-20 14:27:12.619] [info] Time used to read and preprocess layer data: 3m4s
+[2025-02-20 14:27:12.628] [info] Computing priority rank
+[2025-02-20 14:27:31.029] [info] 23.9%
+[2025-02-20 14:27:36.055] [info] 46.6%
+[2025-02-20 14:27:41.066] [info] 68.4%
+[2025-02-20 14:27:46.081] [info] 91.4%
+[2025-02-20 14:27:56.819] [info] Iteration 0, mean ranking error 0.0285823%, mean rank change 1.49351%
+[2025-02-20 14:28:03.575] [info] 7.9%
+[2025-02-20 14:28:08.601] [info] 27.6%
+[2025-02-20 14:28:13.615] [info] 47.2%
+[2025-02-20 14:28:18.637] [info] 66.7%
+[2025-02-20 14:28:23.648] [info] 91.9%
+[2025-02-20 14:28:34.075] [info] Iteration 1, mean ranking error 1.60833%, mean rank change 0.451239%
+[2025-02-20 14:28:40.615] [info] 31.0%
+[2025-02-20 14:28:45.638] [info] 63.1%
+[2025-02-20 14:28:50.656] [info] 95.8%
+[2025-02-20 14:29:01.403] [info] Iteration 2, mean ranking error 0.637662%, mean rank change 0.183381%
+[2025-02-20 14:29:08.098] [info] 5.3%
+[2025-02-20 14:29:14.672] [info] 5.6%
+[2025-02-20 14:29:20.383] [info] 7.5%
+[2025-02-20 14:29:25.448] [info] 10.2%
+[2025-02-20 14:29:30.483] [info] 14.0%
+[2025-02-20 14:29:35.517] [info] 23.7%
+[2025-02-20 14:29:40.544] [info] 34.9%
+[2025-02-20 14:29:45.562] [info] 48.0%
+[2025-02-20 14:29:50.582] [info] 67.0%
+[2025-02-20 14:29:55.604] [info] 88.1%
+[2025-02-20 14:30:07.595] [info] Iteration 3, mean ranking error 0.334473%, mean rank change 0.0971041%
+[2025-02-20 14:30:14.058] [info] 20.3%
+[2025-02-20 14:30:19.075] [info] 42.1%
+[2025-02-20 14:30:24.085] [info] 64.3%
+[2025-02-20 14:30:29.099] [info] 87.6%
+[2025-02-20 14:30:40.536] [info] Iteration 4, mean ranking error 0.228456%, mean rank change 0.0632394%
+[2025-02-20 14:30:46.803] [info] 30.7%
+[2025-02-20 14:30:51.820] [info] 57.5%
+[2025-02-20 14:30:56.827] [info] 80.6%
+[2025-02-20 14:31:09.775] [info] Iteration 5, mean ranking error 0.175316%, mean rank change 0.044889%
+[2025-02-20 14:31:16.034] [info] 19.9%
+[2025-02-20 14:31:21.059] [info] 42.2%
+[2025-02-20 14:31:26.070] [info] 64.8%
+[2025-02-20 14:31:31.079] [info] 87.9%
+[2025-02-20 14:31:42.156] [info] Iteration 6, mean ranking error 0.139547%, mean rank change 0.0336423%
+[2025-02-20 14:31:48.491] [info] 32.3%
+[2025-02-20 14:31:53.500] [info] 66.3%
+[2025-02-20 14:32:07.147] [info] Iteration 7, mean ranking error 0.113599%, mean rank change 0.0261346%
+[2025-02-20 14:32:13.507] [info] 32.3%
+[2025-02-20 14:32:18.529] [info] 66.8%
+[2025-02-20 14:32:31.842] [info] Iteration 8, mean ranking error 0.0941784%, mean rank change 0.0207406%
+[2025-02-20 14:32:38.102] [info] 33.4%
+[2025-02-20 14:32:43.119] [info] 67.0%
+[2025-02-20 14:32:56.478] [info] Iteration 9, mean ranking error 0.0790117%, mean rank change 0.0168569%
+[2025-02-20 14:33:02.740] [info] 32.0%
+[2025-02-20 14:33:07.761] [info] 59.0%
+[2025-02-20 14:33:12.765] [info] 81.8%
+[2025-02-20 14:33:25.108] [info] Iteration 10, mean ranking error 0.0669674%, mean rank change 0.0140058%
+[2025-02-20 14:33:31.351] [info] 23.1%
+[2025-02-20 14:33:36.363] [info] 46.7%
+[2025-02-20 14:33:41.383] [info] 68.2%
+[2025-02-20 14:33:46.399] [info] 91.4%
+[2025-02-20 14:33:57.373] [info] Iteration 11, mean ranking error 0.0575891%, mean rank change 0.0116415%
+[2025-02-20 14:34:03.841] [info] 22.2%
+[2025-02-20 14:34:08.859] [info] 45.6%
+[2025-02-20 14:34:13.883] [info] 68.7%
+[2025-02-20 14:34:18.897] [info] 92.1%
+[2025-02-20 14:34:29.057] [info] Iteration 12, mean ranking error 0.0500351%, mean rank change 0.00991819%
+[2025-02-20 14:34:35.353] [info] 22.3%
+[2025-02-20 14:34:40.373] [info] 45.9%
+[2025-02-20 14:34:45.396] [info] 68.3%
+[2025-02-20 14:34:50.404] [info] 90.3%
+[2025-02-20 14:35:01.157] [info] Iteration 13, mean ranking error 0.0438642%, mean rank change 0.00856506%
+[2025-02-20 14:35:07.491] [info] 22.6%
+[2025-02-20 14:35:12.503] [info] 46.1%
+[2025-02-20 14:35:17.515] [info] 68.1%
+[2025-02-20 14:35:22.544] [info] 91.7%
+[2025-02-20 14:35:33.130] [info] Iteration 14, mean ranking error 0.0387265%, mean rank change 0.00746551%
+[2025-02-20 14:35:39.396] [info] 22.1%
+[2025-02-20 14:35:44.406] [info] 45.5%
+[2025-02-20 14:35:49.430] [info] 69.0%
+[2025-02-20 14:35:54.447] [info] 92.4%
+[2025-02-20 14:36:04.572] [info] Iteration 15, mean ranking error 0.0343812%, mean rank change 0.00655837%
+[2025-02-20 14:36:10.833] [info] 33.1%
+[2025-02-20 14:36:15.856] [info] 66.6%
+[2025-02-20 14:36:29.328] [info] Iteration 16, mean ranking error 0.0307454%, mean rank change 0.00581832%
+[2025-02-20 14:36:35.612] [info] 33.0%
+[2025-02-20 14:36:40.637] [info] 66.7%
+[2025-02-20 14:36:54.377] [info] Iteration 17, mean ranking error 0.0277537%, mean rank change 0.00522703%
+[2025-02-20 14:37:00.692] [info] 32.7%
+[2025-02-20 14:37:05.707] [info] 67.0%
+[2025-02-20 14:37:10.727] [info] 96.0%
+[2025-02-20 14:37:20.978] [info] Iteration 18, mean ranking error 0.02523%, mean rank change 0.00474571%
+[2025-02-20 14:37:27.256] [info] 22.9%
+[2025-02-20 14:37:32.273] [info] 46.0%
+[2025-02-20 14:37:37.282] [info] 69.0%
+[2025-02-20 14:37:42.305] [info] 91.9%
+[2025-02-20 14:37:52.649] [info] Iteration 19, mean ranking error 0.0230178%, mean rank change 0.00432894%
+[2025-02-20 14:37:58.896] [info] 31.7%
+[2025-02-20 14:38:03.911] [info] 58.1%
+[2025-02-20 14:38:08.935] [info] 81.4%
+[2025-02-20 14:38:21.537] [info] Iteration 20, mean ranking error 0.0211384%, mean rank change 0.00395562%
+[2025-02-20 14:38:27.799] [info] 26.6%
+[2025-02-20 14:38:32.816] [info] 49.8%
+[2025-02-20 14:38:37.842] [info] 72.9%
+[2025-02-20 14:38:42.872] [info] 96.2%
+[2025-02-20 14:38:52.132] [info] Iteration 21, mean ranking error 0.0194697%, mean rank change 0.00361802%
+[2025-02-20 14:38:58.396] [info] 30.7%
+[2025-02-20 14:39:03.411] [info] 64.6%
+[2025-02-20 14:39:08.433] [info] 99.6%
+[2025-02-20 14:39:17.017] [info] Iteration 22, mean ranking error 0.0180373%, mean rank change 0.00333296%
+[2025-02-20 14:39:23.279] [info] 23.1%
+[2025-02-20 14:39:28.311] [info] 46.6%
+[2025-02-20 14:39:33.341] [info] 69.9%
+[2025-02-20 14:39:38.363] [info] 93.1%
+[2025-02-20 14:39:48.529] [info] Iteration 23, mean ranking error 0.0167751%, mean rank change 0.00309266%
+[2025-02-20 14:39:54.793] [info] 24.1%
+[2025-02-20 14:39:59.810] [info] 47.2%
+[2025-02-20 14:40:04.836] [info] 70.0%
+[2025-02-20 14:40:09.846] [info] 91.1%
+[2025-02-20 14:40:21.020] [info] Iteration 24, mean ranking error 0.0156609%, mean rank change 0.00288899%
+[2025-02-20 14:40:27.380] [info] 21.4%
+[2025-02-20 14:40:32.398] [info] 44.9%
+[2025-02-20 14:40:37.416] [info] 68.1%
+[2025-02-20 14:40:42.431] [info] 91.4%
+[2025-02-20 14:40:53.073] [info] Iteration 25, mean ranking error 0.014661%, mean rank change 0.00271388%
+[2025-02-20 14:40:59.321] [info] 22.5%
+[2025-02-20 14:41:04.332] [info] 44.7%
+[2025-02-20 14:41:09.354] [info] 60.5%
+[2025-02-20 14:41:14.378] [info] 77.0%
+[2025-02-20 14:41:19.394] [info] 93.8%
+[2025-02-20 14:41:30.853] [info] Iteration 26, mean ranking error 0.0137895%, mean rank change 0.00256190%
+[2025-02-20 14:41:37.509] [info] 22.0%
+[2025-02-20 14:41:42.517] [info] 44.4%
+[2025-02-20 14:41:47.530] [info] 67.3%
+[2025-02-20 14:41:52.558] [info] 90.6%
+[2025-02-20 14:42:03.442] [info] Iteration 27, mean ranking error 0.0129843%, mean rank change 0.00240856%
+[2025-02-20 14:42:09.725] [info] 26.9%
+[2025-02-20 14:42:14.733] [info] 49.9%
+[2025-02-20 14:42:19.763] [info] 73.2%
+[2025-02-20 14:42:24.794] [info] 96.6%
+[2025-02-20 14:42:33.950] [info] Iteration 28, mean ranking error 0.0122561%, mean rank change 0.00228088%
+[2025-02-20 14:42:40.220] [info] 22.7%
+[2025-02-20 14:42:45.235] [info] 46.1%
+[2025-02-20 14:42:50.249] [info] 68.8%
+[2025-02-20 14:42:55.270] [info] 92.0%
+[2025-02-20 14:43:05.675] [info] Iteration 29, mean ranking error 0.0115837%, mean rank change 0.00216600%
+[2025-02-20 14:43:11.960] [info] 32.8%
+[2025-02-20 14:43:16.967] [info] 57.4%
+[2025-02-20 14:43:21.993] [info] 80.7%
+[2025-02-20 14:43:34.869] [info] Iteration 30, mean ranking error 0.0109429%, mean rank change 0.00205373%
+[2025-02-20 14:43:41.166] [info] 22.3%
+[2025-02-20 14:43:46.183] [info] 45.7%
+[2025-02-20 14:43:51.187] [info] 68.8%
+[2025-02-20 14:43:56.209] [info] 91.9%
+[2025-02-20 14:44:06.641] [info] Iteration 31, mean ranking error 0.0103609%, mean rank change 0.00195292%
+[2025-02-20 14:44:12.902] [info] 33.2%
+[2025-02-20 14:44:17.916] [info] 67.7%
+[2025-02-20 14:44:22.923] [info] 92.6%
+[2025-02-20 14:44:33.202] [info] Iteration 32, mean ranking error 0.00981727%, mean rank change 0.00186342%
+[2025-02-20 14:44:34.780] [info] Time used in prioritization: 17m22s
+[2025-02-20 14:44:34.920] [info] Number of iterations: 33
+[2025-02-20 14:44:34.938] [info] Final convergence level: 0.00981727%
+[2025-02-20 14:44:34.949] [info] Area under curve: 0.907519
+[2025-02-20 14:44:34.959] [info] Writing feature info
+[2025-02-20 14:44:34.971] [info] Writing feature curves
+[2025-02-20 14:44:35.588] [info] Writing priority rank map
+[2025-02-20 14:44:40.602] [info] 38.8%
+[2025-02-20 14:44:45.620] [info] 81.0%
+[2025-02-20 14:44:47.892] [info] Total time used: 20m39s
+[2025-02-20 14:44:47.898] [info] Number of errors: 0
+[2025-02-20 14:44:47.904] [info] Number of warnings: 0
+[2025-02-20 14:44:47.910] [info] Done
