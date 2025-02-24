@@ -3,7 +3,7 @@ library(dplyr)
 
 setwd("E:/Github/BC Hydro Project/")
 
-old <- read.csv("BC Hydro Projects/BCH_Project_Summary_241128.csv")
+old <- read.csv("BC Hydro Projects/BCH_Project_Summary_250222_old_weight.csv")
 new <- read.csv("BC Hydro Projects/BCH_Project_Summary_250221.csv")
 
 # Extract only 'Scaled.Summed.Score' and 'BC.Hydro.Names' columns
@@ -34,6 +34,8 @@ summary_stats <- comparison %>%
   summarize(
     mean_old_score = mean(Scaled.Summed.Score_old, na.rm = TRUE),
     mean_new_score = mean(Scaled.Summed.Score_new, na.rm = TRUE),
+    med_old_score = median(Scaled.Summed.Score_old, na.rm = TRUE),
+    med_new_score = median(Scaled.Summed.Score_new, na.rm = TRUE),
     mean_difference = mean(score_difference, na.rm = TRUE),
     min_difference = min(score_difference, na.rm = TRUE),
     max_difference = max(score_difference, na.rm = TRUE)
@@ -58,11 +60,11 @@ ggplot(comparison_long, aes(x = score_type, y = score, fill = score_type)) +
     y = "Scaled Summed Score"
   ) +
   theme_minimal() +
-  scale_fill_manual(values = c("blue", "orange"), )
+  scale_fill_manual(values = c("lightcoral", "lightblue"), )
 
 ggsave("Graphics/Old vs New/boxplot_comparison_240221.jpg", width = 10, height = 5, units = "in", dpi = 300)
 
-# Violin plot comparing old and new scores
+# Violin plot comparing old and new score with horizontal mean lines
 ggplot(comparison_long, aes(x = score_type, y = score, fill = score_type)) +
   geom_violin() +
   labs(
@@ -71,20 +73,35 @@ ggplot(comparison_long, aes(x = score_type, y = score, fill = score_type)) +
     y = "Scaled Summed Score"
   ) +
   theme_minimal() +
-  scale_fill_manual(values = c("lightblue", "lightcoral"))
+  scale_fill_manual(values = c("lightcoral", "lightblue"))
 
-ggsave("Graphics/Old vs New/violin_comparison_240221.jpg", width = 10, height = 5, units = "in", dpi = 300)
+ggsave("Graphics/Old vs New/violin_comparison_240221.jpg", width = 5, height = 5, units = "in", dpi = 300)
 
 
 # Density plot comparing old and new scores
-ggplot(comparison_long, aes(x = score, fill = score_type)) +
-  geom_density(alpha = 0.5) +
+ggplot(comparison_long, aes(x = score, fill = score_type, color = score_type)) +
+  geom_density(alpha = 0.5, outline.type = "full") +
   labs(
     title = "Density Plot of Old vs. New Scaled Summed Scores",
     x = "Scaled Summed Score",
     y = "Density"
   ) +
   theme_minimal() +
-  scale_fill_manual(values = c("lightblue", "lightcoral"))
+  scale_fill_manual(values = c("lightcoral", "lightblue")) +
+  scale_color_manual(values = c("red", "lightblue4"))
 
-ggsave("Graphics/Old vs New/density_comparison_240221.jpg", width = 10, height = 5, units = "in", dpi = 300)
+ggsave("Graphics/Old vs New/density_comparison_240222_old_weigh.jpg", width = 10, height = 5, units = "in", dpi = 300)
+
+
+# finding the distribution of only newly added projects
+df <- read.csv("BC Hydro Projects/BCH_Project_Summary_250221.csv")
+# Assuming your data is in a dataframe called `df`
+df_new <- df %>% filter(`New.Update.` == "y")
+
+# Histogram with Density Curve
+ggplot(df_new, aes(x = Scaled.Summed.Score)) + 
+  geom_histogram(aes(y = ..count..), bins = 30, fill = "steelblue", alpha = 0.6) +  
+  ##geom_density(color = "red", linewidth = 1) +
+  labs(title = "Distribution of Scaled Environmental Scores (New Updated Projects)",
+       x = "Scaled Environmental Score") +
+  theme_minimal()
